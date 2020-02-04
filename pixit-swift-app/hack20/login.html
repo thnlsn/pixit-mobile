@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="./login.css" />
+        <title>Pixit</title>
+    </head>
+    <body>
+        <div class="top">
+            <p class="pixit">PIXIT</p>
+        </div>
+        <form class="logbox" method="POST" action="/login">
+            <p class="formbox">Email</p>
+            <input
+                type="email"
+                name="email"
+                placeholder="Example@email.com"
+            /><br />
+            <p class="formbox">Password</p>
+            <input type="password" name="password" placeholder="Password" />
+            <input class="submit" type="submit" value="Sign In" />
+        </form>
+    </body>
+</html>

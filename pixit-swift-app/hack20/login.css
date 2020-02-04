@@ -1,0 +1,56 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: navy;
+}
+
+.top {
+    height: 12.5vh;
+    background-color: cornflowerblue;
+    margin-top: 0px;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logbox {
+    color: white;
+    font-family: Helvetica;
+    height: 40vh;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 7.5vh;
+}
+.formbox {
+    text-align: left;
+    font-size: 35px;
+    width: 75%;
+    height: 20%;
+    padding-top: 1%;
+    margin-left: 20%;
+}
+input {
+    width: 60%;
+    height: 7vh;
+    margin-left: 20%;
+    font-size: 35px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+.submit {
+    margin-top: 1%;
+}
+.pixit {
+    color: whitesmoke;
+    padding-top: 1%;
+    padding-left: 2%;
+    font-family: Helvetica;
+    height: 100%;
+    font-size: 65px;
+    width: 10%;
+}

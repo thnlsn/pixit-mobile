@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" type="text/css" href="./signup.css" />
+        <title>Pixit</title>
+    </head>
+    <body>
+        <div class="top">
+            <p class="pixit">PIXIT</p>
+        </div>
+        <form class="logbox" method="POST" action="/signup">
+            <p class="formbox">Email</p>
+            <input
+                type="email"
+                name="email"
+                placeholder="Example@email.com"
+            /><br />
+            <p class="formbox">Password</p>
+            <input type="password" name="password" placeholder="Password" />
+            <p class="formbox">Name</p>
+            <input
+                type="text"
+                name="name"
+                placeholder="Example@email.com"
+            /><br />
+            <p class="formbox">Zip Code</p>
+            <input type="number" name="zip" placeholder="55555" />
+            <input class="submit" type="submit" value="Sign Up" />
+        </form>
+    </body>
+</html>
